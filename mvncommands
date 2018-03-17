@@ -1,0 +1,3 @@
+mvn package: genera el empaquetado en target
+mvn install: genera el archivo de dependencias en la carpeta .m2
+mvn clean: elimina la carpeta target
