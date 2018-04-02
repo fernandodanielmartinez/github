@@ -1,0 +1,18 @@
+Ejercicio #1
+Crear la clase Programa que recibe dos valores como argumentos en su método main(). La clase Programa deberá corroborar que se reciban únicamente 2 valores, y que ambos sean numéricos.
+
+En caso de que la cantidad de argumentos sea distinta a dos, lanzar la excepción CantidadDeArgumentosException.
+
+En caso de que al convertir un argumento a entero se lance una excepción, capturarla e imprimir el mensaje “Los dos valores deben ser numéricos” en pantalla.
+
+La clase Programa deberá tener un método público, que recibe los dos argumentos, y que devuelve un float con el resultado del primer argumento dividido el segundo. En caso de que el divisor sea cero, el método deberá lanzar la excepción para ser atrapada por la clase Programa y mostrar el error.
+
+Cualquier otra excepción que exista deberá ser también capturada.
+
+
+Crear la excepción CantidadDeArgumentosException:
+
+con los atributos id, nivelDeError y mensajeError, todos de tipo String
+con un constructor que recibe los valores id, nivel de error y mensaje de error
+
+Respetar el concepto de encapsulamiento.
