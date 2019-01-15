@@ -1,0 +1,13 @@
+Realice su llamada, ingresando su duracion (en segundos) y su tipo:
+<p>
+<form action="{% url 'registro' %}" method="post">
+    {% csrf_token %}
+    Duracion: <input type="number" name="duracion"/>
+    Tipo:
+    <select name="tipo">
+        <option value="Local">Local</option>
+        <option value="Nacional">Nacional</option>
+        <option value="Internacional">Internacional</option>
+    </select>
+    <input type="submit" value="Llamar"/>
+</form>

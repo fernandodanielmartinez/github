@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <p>Registro de llamadas:</p>
+
+    {% if registrollamada %}
+        <table style="width:25%" border= "1px solid black">
+            <tr>
+                <th>Duracion</th>
+                <th>Tipo</th> 
+                <th>Costo</th>
+            </tr>
+            {% for registro in registrollamada %}
+                <tr>
+                    <td>{{ registro.duracion }}</td>
+                    <td>{{ registro.tipo }}</td> 
+                    <td>{{ registro.costo }}</td>
+                </tr>
+            {% endfor %}
+        </table>    
+    {% else %}
+        <p>No hay registros para mostrar</p>
+    {% endif %}
+
+    <p></p>
+
+    <a href="{% url 'llamada' %}">Nueva llamada?</a>
+
+</body>
+</html>
