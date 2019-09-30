@@ -1,0 +1,6 @@
+[submodule "javascript/Angular/01-hola-mundo"]
+	path = javascript/Angular/01-hola-mundo
+	url = https://github.com/fernandodanielmartinez/github/tree/master/javascript/Angular
+[submodule "javascript/Angular/02-spa"]
+	path = javascript/Angular/02-spa
+	url = https://github.com/fernandodanielmartinez/github/tree/master/javascript/Angular
